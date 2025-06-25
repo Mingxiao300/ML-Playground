@@ -43,7 +43,3 @@ class KNN:
         # get most common label among k nearest samples
         most_common = Counter(k_nearest_labels).most_common(1)
         return most_common[0][0]
-
-
-    
-
